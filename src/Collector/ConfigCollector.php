@@ -122,11 +122,11 @@ class ConfigCollector implements CollectorInterface, Serializable
      *
      * @inheritDoc
      */
-    public function unserialize($serialized)
+    public function unserialize($data)
     {
-        $data = unserialize($serialized);
-        assert(is_array($data));
-        $this->__unserialize($data);
+        $values = unserialize($data);
+        assert(is_array($values));
+        $this->__unserialize($values);
     }
 
     /**

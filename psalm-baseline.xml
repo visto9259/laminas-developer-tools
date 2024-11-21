@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.19.1@b9583493b08eb36259c0f6b746a787c4c9b3ac45">
+<files psalm-version="5.26.1@d747f6500b38ac4f7dfc5edbcae6e4b637d7add0">
   <file src="src/Collector/AbstractCollector.php">
     <MethodSignatureMustProvideReturnType>
-      <code>serialize</code>
-      <code>unserialize</code>
+      <code><![CDATA[serialize]]></code>
+      <code><![CDATA[unserialize]]></code>
     </MethodSignatureMustProvideReturnType>
     <MissingConstructor>
-      <code>$data</code>
-      <code>$data</code>
-      <code>$data</code>
-      <code>$data</code>
-      <code>$data</code>
+      <code><![CDATA[$data]]></code>
+      <code><![CDATA[$data]]></code>
+      <code><![CDATA[$data]]></code>
+      <code><![CDATA[$data]]></code>
+      <code><![CDATA[$data]]></code>
     </MissingConstructor>
     <MixedAssignment>
-      <code>$data</code>
+      <code><![CDATA[$data]]></code>
     </MixedAssignment>
   </file>
   <file src="src/Collector/CollectorInterface.php">
     <MissingReturnType>
-      <code>collect</code>
+      <code><![CDATA[collect]]></code>
     </MissingReturnType>
   </file>
   <file src="src/Collector/ConfigCollector.php">
@@ -26,130 +26,130 @@
       <code><![CDATA[! $application = $mvcEvent->getApplication()]]></code>
     </DocblockTypeContradiction>
     <MethodSignatureMustProvideReturnType>
-      <code>serialize</code>
-      <code>unserialize</code>
+      <code><![CDATA[serialize]]></code>
+      <code><![CDATA[unserialize]]></code>
     </MethodSignatureMustProvideReturnType>
     <MissingReturnType>
-      <code>collect</code>
+      <code><![CDATA[collect]]></code>
     </MissingReturnType>
     <MixedArgument>
       <code><![CDATA[$serviceLocator->get('ApplicationConfig')]]></code>
       <code><![CDATA[$serviceLocator->get('config')]]></code>
     </MixedArgument>
     <MixedArrayOffset>
-      <code>$serializable[$key]</code>
-      <code>$serializable[$key]</code>
-      <code>$serializable[$key]</code>
+      <code><![CDATA[$serializable[$key]]]></code>
+      <code><![CDATA[$serializable[$key]]]></code>
+      <code><![CDATA[$serializable[$key]]]></code>
     </MixedArrayOffset>
     <MixedAssignment>
-      <code>$key</code>
-      <code>$serializable[$key]</code>
-      <code>$unserialized[$key]</code>
-      <code>$value</code>
-      <code>$value</code>
+      <code><![CDATA[$key]]></code>
+      <code><![CDATA[$serializable[$key]]]></code>
+      <code><![CDATA[$unserialized[$key]]]></code>
+      <code><![CDATA[$value]]></code>
+      <code><![CDATA[$value]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>getName</code>
-      <code>getPriority</code>
+      <code><![CDATA[getName]]></code>
+      <code><![CDATA[getPriority]]></code>
     </MixedInferredReturnType>
     <MixedReturnStatement>
-      <code>static::NAME</code>
-      <code>static::PRIORITY</code>
+      <code><![CDATA[static::NAME]]></code>
+      <code><![CDATA[static::PRIORITY]]></code>
     </MixedReturnStatement>
     <PossiblyInvalidArgument>
-      <code>$value</code>
+      <code><![CDATA[$value]]></code>
     </PossiblyInvalidArgument>
   </file>
   <file src="src/Collector/DbCollector.php">
     <MethodSignatureMustProvideReturnType>
-      <code>serialize</code>
-      <code>unserialize</code>
+      <code><![CDATA[serialize]]></code>
+      <code><![CDATA[unserialize]]></code>
     </MethodSignatureMustProvideReturnType>
     <MissingReturnType>
-      <code>collect</code>
+      <code><![CDATA[collect]]></code>
     </MissingReturnType>
     <MixedArgument>
       <code><![CDATA[$this->profiler->getQueryProfiles($mode)]]></code>
     </MixedArgument>
     <MixedAssignment>
-      <code>$query</code>
-      <code>$time</code>
+      <code><![CDATA[$query]]></code>
+      <code><![CDATA[$time]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>float|integer</code>
-      <code>self</code>
+      <code><![CDATA[float|integer]]></code>
+      <code><![CDATA[self]]></code>
     </MixedInferredReturnType>
     <MixedMethodCall>
-      <code>getElapsedTime</code>
+      <code><![CDATA[getElapsedTime]]></code>
     </MixedMethodCall>
     <MixedOperand>
       <code><![CDATA[$query->getElapsedTime()]]></code>
     </MixedOperand>
     <MixedReturnStatement>
-      <code>$time</code>
+      <code><![CDATA[$time]]></code>
     </MixedReturnStatement>
     <PossiblyNullReference>
-      <code>getQueryProfiles</code>
+      <code><![CDATA[getQueryProfiles]]></code>
     </PossiblyNullReference>
     <PossiblyUnusedMethod>
-      <code>getProfiler</code>
-      <code>getQueryTime</code>
-      <code>hasProfiler</code>
-      <code>setProfiler</code>
+      <code><![CDATA[getProfiler]]></code>
+      <code><![CDATA[getQueryTime]]></code>
+      <code><![CDATA[hasProfiler]]></code>
+      <code><![CDATA[setProfiler]]></code>
     </PossiblyUnusedMethod>
     <PossiblyUnusedParam>
-      <code>$profiler</code>
+      <code><![CDATA[$profiler]]></code>
     </PossiblyUnusedParam>
     <UndefinedClass>
-      <code>Profiler</code>
-      <code>Profiler</code>
+      <code><![CDATA[Profiler]]></code>
+      <code><![CDATA[Profiler]]></code>
     </UndefinedClass>
     <UndefinedDocblockClass>
       <code><![CDATA[$this->profiler]]></code>
       <code><![CDATA[$this->profiler]]></code>
-      <code>null|Profiler</code>
-      <code>null|Profiler</code>
+      <code><![CDATA[null|Profiler]]></code>
+      <code><![CDATA[null|Profiler]]></code>
     </UndefinedDocblockClass>
   </file>
   <file src="src/Collector/EventCollectorInterface.php">
     <MissingReturnType>
-      <code>collectEvent</code>
+      <code><![CDATA[collectEvent]]></code>
     </MissingReturnType>
   </file>
   <file src="src/Collector/ExceptionCollector.php">
     <MissingReturnType>
-      <code>collect</code>
+      <code><![CDATA[collect]]></code>
     </MissingReturnType>
     <MixedArgument>
       <code><![CDATA[$mvcEvent->getParam('exception')]]></code>
     </MixedArgument>
     <MixedInferredReturnType>
-      <code>SerializableException</code>
-      <code>SerializableException</code>
-      <code>array</code>
-      <code>array</code>
-      <code>integer</code>
-      <code>integer</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
+      <code><![CDATA[SerializableException]]></code>
+      <code><![CDATA[SerializableException]]></code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[integer]]></code>
+      <code><![CDATA[integer]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
     </MixedInferredReturnType>
     <MixedMethodCall>
-      <code>getCode</code>
-      <code>getCode</code>
-      <code>getFile</code>
-      <code>getFile</code>
-      <code>getMessage</code>
-      <code>getMessage</code>
-      <code>getPrevious</code>
-      <code>getPrevious</code>
-      <code>getPrevious</code>
-      <code>getPrevious</code>
-      <code>getPrevious</code>
-      <code>getPrevious</code>
-      <code>getTrace</code>
-      <code>getTrace</code>
+      <code><![CDATA[getCode]]></code>
+      <code><![CDATA[getCode]]></code>
+      <code><![CDATA[getFile]]></code>
+      <code><![CDATA[getFile]]></code>
+      <code><![CDATA[getMessage]]></code>
+      <code><![CDATA[getMessage]]></code>
+      <code><![CDATA[getPrevious]]></code>
+      <code><![CDATA[getPrevious]]></code>
+      <code><![CDATA[getPrevious]]></code>
+      <code><![CDATA[getPrevious]]></code>
+      <code><![CDATA[getPrevious]]></code>
+      <code><![CDATA[getPrevious]]></code>
+      <code><![CDATA[getTrace]]></code>
+      <code><![CDATA[getTrace]]></code>
     </MixedMethodCall>
     <MixedReturnStatement>
       <code><![CDATA[$this->data['exception']]]></code>
@@ -164,26 +164,26 @@
       <code><![CDATA[$this->data['exception']->getTrace()]]></code>
     </MixedReturnStatement>
     <PossiblyUnusedMethod>
-      <code>getCode</code>
-      <code>getException</code>
-      <code>getFile</code>
-      <code>getMessage</code>
-      <code>getPreviousCode</code>
-      <code>getPreviousException</code>
-      <code>getPreviousFile</code>
-      <code>getPreviousMessage</code>
-      <code>getPreviousTrace</code>
-      <code>getTrace</code>
-      <code>hasException</code>
-      <code>hasPreviousException</code>
+      <code><![CDATA[getCode]]></code>
+      <code><![CDATA[getException]]></code>
+      <code><![CDATA[getFile]]></code>
+      <code><![CDATA[getMessage]]></code>
+      <code><![CDATA[getPreviousCode]]></code>
+      <code><![CDATA[getPreviousException]]></code>
+      <code><![CDATA[getPreviousFile]]></code>
+      <code><![CDATA[getPreviousMessage]]></code>
+      <code><![CDATA[getPreviousTrace]]></code>
+      <code><![CDATA[getTrace]]></code>
+      <code><![CDATA[hasException]]></code>
+      <code><![CDATA[hasPreviousException]]></code>
     </PossiblyUnusedMethod>
   </file>
   <file src="src/Collector/MailCollector.php">
     <MissingReturnType>
-      <code>collect</code>
+      <code><![CDATA[collect]]></code>
     </MissingReturnType>
     <PossiblyUnusedMethod>
-      <code>getMailsSend</code>
+      <code><![CDATA[getMailsSend]]></code>
     </PossiblyUnusedMethod>
   </file>
   <file src="src/Collector/MemoryCollector.php">
@@ -191,15 +191,15 @@
       <code><![CDATA[isset($this->data['event'])]]></code>
     </InvalidReturnStatement>
     <InvalidReturnType>
-      <code>integer</code>
+      <code><![CDATA[integer]]></code>
     </InvalidReturnType>
     <MissingReturnType>
-      <code>collect</code>
-      <code>collectEvent</code>
+      <code><![CDATA[collect]]></code>
+      <code><![CDATA[collectEvent]]></code>
     </MissingReturnType>
     <MixedArgument>
-      <code>$app</code>
-      <code>$app</code>
+      <code><![CDATA[$app]]></code>
+      <code><![CDATA[$app]]></code>
     </MixedArgument>
     <MixedArrayAccess>
       <code><![CDATA[$context['memory']]]></code>
@@ -212,19 +212,19 @@
       <code><![CDATA[$this->data['event'][$id]]]></code>
     </MixedArrayAssignment>
     <MixedArrayOffset>
-      <code>$result[$name]</code>
-      <code>$result[$name]</code>
+      <code><![CDATA[$result[$name]]]></code>
+      <code><![CDATA[$result[$name]]]></code>
     </MixedArrayOffset>
     <MixedAssignment>
-      <code>$app</code>
-      <code>$context</code>
-      <code>$name</code>
-      <code>$previous</code>
-      <code>$result[$name]</code>
+      <code><![CDATA[$app]]></code>
+      <code><![CDATA[$context]]></code>
+      <code><![CDATA[$name]]></code>
+      <code><![CDATA[$previous]]></code>
+      <code><![CDATA[$result[$name]]]></code>
       <code><![CDATA[$result[$name]['difference']]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>integer</code>
+      <code><![CDATA[integer]]></code>
     </MixedInferredReturnType>
     <MixedOperand>
       <code><![CDATA[$context['memory']]]></code>
@@ -233,38 +233,41 @@
       <code><![CDATA[$this->data['memory']]]></code>
     </MixedReturnStatement>
     <PossiblyUndefinedVariable>
-      <code>$context</code>
+      <code><![CDATA[$context]]></code>
     </PossiblyUndefinedVariable>
     <PossiblyUnusedMethod>
-      <code>getApplicationEventMemory</code>
-      <code>hasEventMemory</code>
+      <code><![CDATA[getApplicationEventMemory]]></code>
+      <code><![CDATA[hasEventMemory]]></code>
     </PossiblyUnusedMethod>
     <RedundantPropertyInitializationCheck>
       <code><![CDATA[isset($this->data)]]></code>
     </RedundantPropertyInitializationCheck>
+    <RiskyTruthyFalsyComparison>
+      <code><![CDATA[$previous]]></code>
+    </RiskyTruthyFalsyComparison>
   </file>
   <file src="src/Collector/RequestCollector.php">
     <MissingReturnType>
-      <code>addChildrenToView</code>
-      <code>collect</code>
+      <code><![CDATA[addChildrenToView]]></code>
+      <code><![CDATA[collect]]></code>
     </MissingReturnType>
     <MixedArgument>
-      <code>$controller</code>
-      <code>$controller</code>
+      <code><![CDATA[$controller]]></code>
+      <code><![CDATA[$controller]]></code>
       <code><![CDATA[$this->data['action']]]></code>
     </MixedArgument>
     <MixedAssignment>
-      <code>$controller</code>
-      <code>$var</code>
+      <code><![CDATA[$controller]]></code>
+      <code><![CDATA[$var]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>array</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
     </MixedInferredReturnType>
     <MixedReturnStatement>
       <code><![CDATA[$this->data['action']]]></code>
@@ -276,28 +279,28 @@
       <code><![CDATA[$this->data['views']]]></code>
     </MixedReturnStatement>
     <PossiblyUnusedMethod>
-      <code>getActionName</code>
-      <code>getControllerName</code>
-      <code>getFullControllerName</code>
-      <code>getMethod</code>
-      <code>getOtherParameters</code>
-      <code>getRouteName</code>
-      <code>getStatusCode</code>
-      <code>getViews</code>
+      <code><![CDATA[getActionName]]></code>
+      <code><![CDATA[getControllerName]]></code>
+      <code><![CDATA[getFullControllerName]]></code>
+      <code><![CDATA[getMethod]]></code>
+      <code><![CDATA[getOtherParameters]]></code>
+      <code><![CDATA[getRouteName]]></code>
+      <code><![CDATA[getStatusCode]]></code>
+      <code><![CDATA[getViews]]></code>
     </PossiblyUnusedMethod>
     <UndefinedInterfaceMethod>
-      <code>getMethod</code>
-      <code>getStatusCode</code>
+      <code><![CDATA[getMethod]]></code>
+      <code><![CDATA[getStatusCode]]></code>
     </UndefinedInterfaceMethod>
   </file>
   <file src="src/Collector/TimeCollector.php">
     <MissingReturnType>
-      <code>collect</code>
-      <code>collectEvent</code>
+      <code><![CDATA[collect]]></code>
+      <code><![CDATA[collectEvent]]></code>
     </MissingReturnType>
     <MixedArgument>
-      <code>$app</code>
-      <code>$app</code>
+      <code><![CDATA[$app]]></code>
+      <code><![CDATA[$app]]></code>
     </MixedArgument>
     <MixedArrayAccess>
       <code><![CDATA[$context['time']]]></code>
@@ -310,25 +313,25 @@
       <code><![CDATA[$this->data['event'][$id]]]></code>
     </MixedArrayAssignment>
     <MixedArrayOffset>
-      <code>$result[$index]</code>
-      <code>$result[$index]</code>
+      <code><![CDATA[$result[$index]]]></code>
+      <code><![CDATA[$result[$index]]]></code>
     </MixedArrayOffset>
     <MixedAssignment>
-      <code>$app</code>
-      <code>$context</code>
-      <code>$index</code>
-      <code>$previous</code>
-      <code>$result[$index]</code>
+      <code><![CDATA[$app]]></code>
+      <code><![CDATA[$context]]></code>
+      <code><![CDATA[$index]]></code>
+      <code><![CDATA[$previous]]></code>
+      <code><![CDATA[$result[$index]]]></code>
       <code><![CDATA[$result[$index]['elapsed']]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>float</code>
-      <code>float</code>
-      <code>float</code>
+      <code><![CDATA[float]]></code>
+      <code><![CDATA[float]]></code>
+      <code><![CDATA[float]]></code>
     </MixedInferredReturnType>
     <MixedMethodCall>
-      <code>get</code>
-      <code>get</code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
     </MixedMethodCall>
     <MixedOperand>
       <code><![CDATA[$context['time']]]></code>
@@ -340,28 +343,31 @@
       <code><![CDATA[$mvcEvent->getRequest()->getServer()->get('REQUEST_TIME_FLOAT')]]></code>
       <code><![CDATA[$this->data['end'] - $this->data['start']]]></code>
       <code><![CDATA[$this->data['start']]]></code>
-      <code>REQUEST_MICROTIME</code>
+      <code><![CDATA[REQUEST_MICROTIME]]></code>
     </MixedReturnStatement>
     <PossiblyUndefinedVariable>
-      <code>$context</code>
+      <code><![CDATA[$context]]></code>
     </PossiblyUndefinedVariable>
     <PossiblyUnusedMethod>
-      <code>getApplicationEventTimes</code>
-      <code>getExecutionTime</code>
-      <code>getStartTime</code>
-      <code>hasEventTimes</code>
+      <code><![CDATA[getApplicationEventTimes]]></code>
+      <code><![CDATA[getExecutionTime]]></code>
+      <code><![CDATA[getStartTime]]></code>
+      <code><![CDATA[hasEventTimes]]></code>
     </PossiblyUnusedMethod>
     <RedundantPropertyInitializationCheck>
       <code><![CDATA[isset($this->data)]]></code>
     </RedundantPropertyInitializationCheck>
+    <RiskyTruthyFalsyComparison>
+      <code><![CDATA[$previous]]></code>
+    </RiskyTruthyFalsyComparison>
     <UndefinedInterfaceMethod>
-      <code>getServer</code>
-      <code>getServer</code>
+      <code><![CDATA[getServer]]></code>
+      <code><![CDATA[getServer]]></code>
     </UndefinedInterfaceMethod>
   </file>
   <file src="src/Controller/IndexController.php">
     <UnusedClass>
-      <code>IndexController</code>
+      <code><![CDATA[IndexController]]></code>
     </UnusedClass>
   </file>
   <file src="src/EventLogging/EventContextProvider.php">
@@ -378,24 +384,24 @@
       <code><![CDATA[$backtrace[4]['file']]]></code>
     </MixedArgument>
     <MixedInferredReturnType>
-      <code>integer</code>
+      <code><![CDATA[integer]]></code>
     </MixedInferredReturnType>
     <MixedReturnStatement>
       <code><![CDATA[$backtrace[4]['line']]]></code>
     </MixedReturnStatement>
     <PropertyNotSetInConstructor>
-      <code>$event</code>
+      <code><![CDATA[$event]]></code>
     </PropertyNotSetInConstructor>
   </file>
   <file src="src/Exception/ParameterMissingException.php">
     <UnusedClass>
-      <code>ParameterMissingException</code>
+      <code><![CDATA[ParameterMissingException]]></code>
     </UnusedClass>
   </file>
   <file src="src/Exception/SerializableException.php">
     <MethodSignatureMustProvideReturnType>
-      <code>serialize</code>
-      <code>unserialize</code>
+      <code><![CDATA[serialize]]></code>
+      <code><![CDATA[unserialize]]></code>
     </MethodSignatureMustProvideReturnType>
     <MixedArgument>
       <code><![CDATA[$entry['args']]]></code>
@@ -412,17 +418,17 @@
       <code><![CDATA[$entry['type']]]></code>
     </MixedArrayAccess>
     <MixedAssignment>
-      <code>$entry</code>
+      <code><![CDATA[$entry]]></code>
       <code><![CDATA[$this->data]]></code>
-      <code>$value</code>
+      <code><![CDATA[$value]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>array</code>
-      <code>integer</code>
-      <code>integer|string</code>
-      <code>self|null</code>
-      <code>string</code>
-      <code>string</code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[integer]]></code>
+      <code><![CDATA[integer|string]]></code>
+      <code><![CDATA[self|null]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
     </MixedInferredReturnType>
     <MixedReturnStatement>
       <code><![CDATA[$this->data['code']]]></code>
@@ -433,12 +439,12 @@
       <code><![CDATA[$this->data['trace']]]></code>
     </MixedReturnStatement>
     <PossiblyUnusedMethod>
-      <code>getCode</code>
-      <code>getFile</code>
-      <code>getLine</code>
-      <code>getPrevious</code>
-      <code>getTrace</code>
-      <code>getTraceAsString</code>
+      <code><![CDATA[getCode]]></code>
+      <code><![CDATA[getFile]]></code>
+      <code><![CDATA[getLine]]></code>
+      <code><![CDATA[getPrevious]]></code>
+      <code><![CDATA[getTrace]]></code>
+      <code><![CDATA[getTraceAsString]]></code>
     </PossiblyUnusedMethod>
   </file>
   <file src="src/Listener/EventLoggingListenerAggregate.php">
@@ -452,170 +458,170 @@
       <code><![CDATA[static fn(CollectorInterface $collector) => $collector]]></code>
     </PossiblyInvalidArgument>
     <PossiblyUnusedMethod>
-      <code>attachShared</code>
-      <code>detachShared</code>
+      <code><![CDATA[attachShared]]></code>
+      <code><![CDATA[detachShared]]></code>
     </PossiblyUnusedMethod>
     <PossiblyUnusedParam>
-      <code>$events</code>
+      <code><![CDATA[$events]]></code>
     </PossiblyUnusedParam>
     <RedundantCastGivenDocblockType>
-      <code>(string) $identifier</code>
+      <code><![CDATA[(string) $identifier]]></code>
     </RedundantCastGivenDocblockType>
   </file>
   <file src="src/Listener/FirePhpListener.php">
     <MissingReturnType>
-      <code>onCollected</code>
+      <code><![CDATA[onCollected]]></code>
     </MissingReturnType>
     <PossiblyUnusedParam>
-      <code>$event</code>
+      <code><![CDATA[$event]]></code>
     </PossiblyUnusedParam>
     <UnusedClass>
-      <code>FirePhpListener</code>
+      <code><![CDATA[FirePhpListener]]></code>
     </UnusedClass>
   </file>
   <file src="src/Listener/FlushListener.php">
     <MissingReturnType>
-      <code>onFinish</code>
+      <code><![CDATA[onFinish]]></code>
     </MissingReturnType>
   </file>
   <file src="src/Listener/ProfilerListener.php">
     <MissingReturnType>
-      <code>onFinish</code>
+      <code><![CDATA[onFinish]]></code>
     </MissingReturnType>
     <MixedArgument>
-      <code>$collector</code>
+      <code><![CDATA[$collector]]></code>
     </MixedArgument>
     <MixedAssignment>
-      <code>$collector</code>
-      <code>$profiler</code>
-      <code>$report</code>
+      <code><![CDATA[$collector]]></code>
+      <code><![CDATA[$profiler]]></code>
+      <code><![CDATA[$report]]></code>
     </MixedAssignment>
     <MixedMethodCall>
-      <code>addCollector</code>
-      <code>addError</code>
-      <code>collect</code>
-      <code>setErrorMode</code>
+      <code><![CDATA[addCollector]]></code>
+      <code><![CDATA[addError]]></code>
+      <code><![CDATA[collect]]></code>
+      <code><![CDATA[setErrorMode]]></code>
     </MixedMethodCall>
     <UnusedVariable>
-      <code>$name</code>
+      <code><![CDATA[$name]]></code>
     </UnusedVariable>
   </file>
   <file src="src/Listener/StorageListener.php">
     <MissingReturnType>
-      <code>onCollected</code>
+      <code><![CDATA[onCollected]]></code>
     </MissingReturnType>
     <PossiblyUnusedParam>
-      <code>$event</code>
+      <code><![CDATA[$event]]></code>
     </PossiblyUnusedParam>
     <PossiblyUnusedProperty>
-      <code>$serviceLocator</code>
+      <code><![CDATA[$serviceLocator]]></code>
     </PossiblyUnusedProperty>
   </file>
   <file src="src/Listener/ToolbarListener.php">
     <InvalidOperand>
-      <code>$cache[0]</code>
+      <code><![CDATA[$cache[0]]]></code>
     </InvalidOperand>
     <MissingReturnType>
-      <code>getModules</code>
-      <code>injectToolbar</code>
-      <code>onCollected</code>
+      <code><![CDATA[getModules]]></code>
+      <code><![CDATA[injectToolbar]]></code>
+      <code><![CDATA[onCollected]]></code>
     </MissingReturnType>
     <MixedArgument>
-      <code>$content</code>
+      <code><![CDATA[$content]]></code>
       <code><![CDATA[$headers->get('Content-Type')->getFieldValue()]]></code>
       <code><![CDATA[$moduleManager->getLoadedModules()]]></code>
-      <code>$template</code>
-      <code>$template</code>
+      <code><![CDATA[$template]]></code>
+      <code><![CDATA[$template]]></code>
     </MixedArgument>
     <MixedArgumentTypeCoercion>
-      <code>$name</code>
+      <code><![CDATA[$name]]></code>
     </MixedArgumentTypeCoercion>
     <MixedAssignment>
-      <code>$content</code>
-      <code>$entries[]</code>
-      <code>$entries[]</code>
-      <code>$entries[]</code>
-      <code>$errors[$name]</code>
-      <code>$headers</code>
-      <code>$moduleManager</code>
-      <code>$script</code>
-      <code>$style</code>
-      <code>$template</code>
-      <code>$template</code>
+      <code><![CDATA[$content]]></code>
+      <code><![CDATA[$entries[]]]></code>
+      <code><![CDATA[$entries[]]]></code>
+      <code><![CDATA[$entries[]]]></code>
+      <code><![CDATA[$errors[$name]]]></code>
+      <code><![CDATA[$headers]]></code>
+      <code><![CDATA[$moduleManager]]></code>
+      <code><![CDATA[$script]]></code>
+      <code><![CDATA[$style]]></code>
+      <code><![CDATA[$template]]></code>
+      <code><![CDATA[$template]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>array</code>
+      <code><![CDATA[array]]></code>
     </MixedInferredReturnType>
     <MixedMethodCall>
-      <code>get</code>
-      <code>getFieldValue</code>
-      <code>getLoadedModules</code>
-      <code>has</code>
-      <code>render</code>
-      <code>render</code>
-      <code>render</code>
-      <code>render</code>
-      <code>render</code>
-      <code>render</code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[getFieldValue]]></code>
+      <code><![CDATA[getLoadedModules]]></code>
+      <code><![CDATA[has]]></code>
+      <code><![CDATA[render]]></code>
+      <code><![CDATA[render]]></code>
+      <code><![CDATA[render]]></code>
+      <code><![CDATA[render]]></code>
+      <code><![CDATA[render]]></code>
+      <code><![CDATA[render]]></code>
     </MixedMethodCall>
     <MixedOperand>
-      <code>$script</code>
-      <code>$script</code>
-      <code>$script</code>
-      <code>$style</code>
-      <code>$style</code>
-      <code>$style</code>
+      <code><![CDATA[$script]]></code>
+      <code><![CDATA[$script]]></code>
+      <code><![CDATA[$script]]></code>
+      <code><![CDATA[$style]]></code>
+      <code><![CDATA[$style]]></code>
+      <code><![CDATA[$style]]></code>
     </MixedOperand>
     <MixedPropertyTypeCoercion>
       <code><![CDATA[$this->listeners]]></code>
     </MixedPropertyTypeCoercion>
     <PossiblyNullReference>
-      <code>attach</code>
-      <code>getRequest</code>
-      <code>getResponse</code>
+      <code><![CDATA[attach]]></code>
+      <code><![CDATA[getRequest]]></code>
+      <code><![CDATA[getResponse]]></code>
     </PossiblyNullReference>
     <PossiblyUnusedMethod>
-      <code>getLatestVersion</code>
+      <code><![CDATA[getLatestVersion]]></code>
     </PossiblyUnusedMethod>
     <UndefinedClass>
-      <code>Version</code>
+      <code><![CDATA[Version]]></code>
     </UndefinedClass>
     <UndefinedInterfaceMethod>
-      <code>getBody</code>
-      <code>getHeaders</code>
-      <code>isXmlHttpRequest</code>
+      <code><![CDATA[getBody]]></code>
+      <code><![CDATA[getHeaders]]></code>
+      <code><![CDATA[isXmlHttpRequest]]></code>
     </UndefinedInterfaceMethod>
   </file>
   <file src="src/MatchInterface.php">
     <UnusedClass>
-      <code>MatchInterface</code>
+      <code><![CDATA[MatchInterface]]></code>
     </UnusedClass>
   </file>
   <file src="src/Module.php">
     <MissingClosureParamType>
-      <code>$sm</code>
-      <code>$sm</code>
-      <code>$sm</code>
-      <code>$sm</code>
-      <code>$sm</code>
-      <code>$sm</code>
-      <code>$sm</code>
-      <code>$sm</code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
     </MissingClosureParamType>
     <MissingClosureReturnType>
-      <code>static function ($sm) {</code>
+      <code><![CDATA[static function ($sm) {]]></code>
     </MissingClosureReturnType>
     <MissingReturnType>
-      <code>onLoadModulesPost</code>
+      <code><![CDATA[onLoadModulesPost]]></code>
     </MissingReturnType>
     <MixedArgument>
-      <code>$config</code>
+      <code><![CDATA[$config]]></code>
       <code><![CDATA[$config->getEventCollectors()]]></code>
       <code><![CDATA[$config->getEventIdentifiers()]]></code>
       <code><![CDATA[$report->getErrors()]]></code>
       <code><![CDATA[$report->getErrors()]]></code>
-      <code>$sm</code>
-      <code>$sm</code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$sm]]></code>
       <code><![CDATA[$sm->get('Application')]]></code>
       <code><![CDATA[$sm->get('Laminas\DeveloperTools\Config')]]></code>
       <code><![CDATA[$sm->get('Laminas\DeveloperTools\Config')]]></code>
@@ -634,109 +640,109 @@
       <code><![CDATA[$configuration['laminas-developer-tools']['profiler']['enabled']]]></code>
     </MixedArrayAccess>
     <MixedAssignment>
-      <code>$adapter</code>
-      <code>$app</code>
-      <code>$config</code>
-      <code>$config</code>
-      <code>$config</code>
-      <code>$configuration</code>
-      <code>$em</code>
-      <code>$eventLoggingListener</code>
-      <code>$eventManager</code>
-      <code>$flushListener</code>
-      <code>$options</code>
-      <code>$profilerListener</code>
-      <code>$report</code>
-      <code>$sem</code>
-      <code>$sm</code>
-      <code>$toolbarListener</code>
+      <code><![CDATA[$adapter]]></code>
+      <code><![CDATA[$app]]></code>
+      <code><![CDATA[$config]]></code>
+      <code><![CDATA[$config]]></code>
+      <code><![CDATA[$config]]></code>
+      <code><![CDATA[$configuration]]></code>
+      <code><![CDATA[$em]]></code>
+      <code><![CDATA[$eventLoggingListener]]></code>
+      <code><![CDATA[$eventManager]]></code>
+      <code><![CDATA[$flushListener]]></code>
+      <code><![CDATA[$options]]></code>
+      <code><![CDATA[$profilerListener]]></code>
+      <code><![CDATA[$report]]></code>
+      <code><![CDATA[$sem]]></code>
+      <code><![CDATA[$sm]]></code>
+      <code><![CDATA[$toolbarListener]]></code>
     </MixedAssignment>
     <MixedMethodCall>
-      <code>attach</code>
-      <code>attach</code>
-      <code>attach</code>
-      <code>attachShared</code>
-      <code>canFlushEarly</code>
-      <code>eventCollectionEnabled</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>get</code>
-      <code>getErrors</code>
-      <code>getErrors</code>
-      <code>getEventCollectors</code>
-      <code>getEventIdentifiers</code>
-      <code>getEventManager</code>
-      <code>getEventManager</code>
-      <code>getMergedConfig</code>
-      <code>getServiceManager</code>
-      <code>getSharedManager</code>
-      <code>has</code>
-      <code>hasErrors</code>
-      <code>hasErrors</code>
-      <code>isStrict</code>
-      <code>isStrict</code>
-      <code>isToolbarEnabled</code>
-      <code>isToolbarEnabled</code>
-      <code>trigger</code>
+      <code><![CDATA[attach]]></code>
+      <code><![CDATA[attach]]></code>
+      <code><![CDATA[attach]]></code>
+      <code><![CDATA[attachShared]]></code>
+      <code><![CDATA[canFlushEarly]]></code>
+      <code><![CDATA[eventCollectionEnabled]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[get]]></code>
+      <code><![CDATA[getErrors]]></code>
+      <code><![CDATA[getErrors]]></code>
+      <code><![CDATA[getEventCollectors]]></code>
+      <code><![CDATA[getEventIdentifiers]]></code>
+      <code><![CDATA[getEventManager]]></code>
+      <code><![CDATA[getEventManager]]></code>
+      <code><![CDATA[getMergedConfig]]></code>
+      <code><![CDATA[getServiceManager]]></code>
+      <code><![CDATA[getSharedManager]]></code>
+      <code><![CDATA[has]]></code>
+      <code><![CDATA[hasErrors]]></code>
+      <code><![CDATA[hasErrors]]></code>
+      <code><![CDATA[isStrict]]></code>
+      <code><![CDATA[isStrict]]></code>
+      <code><![CDATA[isToolbarEnabled]]></code>
+      <code><![CDATA[isToolbarEnabled]]></code>
+      <code><![CDATA[trigger]]></code>
     </MixedMethodCall>
     <ParamNameMismatch>
-      <code>$event</code>
+      <code><![CDATA[$event]]></code>
     </ParamNameMismatch>
     <PossiblyInvalidMethodCall>
-      <code>getEventManager</code>
+      <code><![CDATA[getEventManager]]></code>
     </PossiblyInvalidMethodCall>
     <PossiblyNullReference>
-      <code>getEventManager</code>
+      <code><![CDATA[getEventManager]]></code>
     </PossiblyNullReference>
     <UndefinedClass>
-      <code>ProfilingAdapter</code>
+      <code><![CDATA[ProfilingAdapter]]></code>
     </UndefinedClass>
     <UndefinedInterfaceMethod>
-      <code>getApplication</code>
-      <code>getConfigListener</code>
+      <code><![CDATA[getApplication]]></code>
+      <code><![CDATA[getConfigListener]]></code>
     </UndefinedInterfaceMethod>
   </file>
   <file src="src/Options.php">
     <DocblockTypeContradiction>
-      <code>is_array($options)</code>
-      <code>is_array($options)</code>
+      <code><![CDATA[is_array($options)]]></code>
+      <code><![CDATA[is_array($options)]]></code>
     </DocblockTypeContradiction>
     <MissingReturnType>
-      <code>setCollectors</code>
-      <code>setEventCollectors</code>
-      <code>setEventIdentifiers</code>
-      <code>setEvents</code>
-      <code>setMatcher</code>
-      <code>setProfiler</code>
-      <code>setToolbar</code>
+      <code><![CDATA[setCollectors]]></code>
+      <code><![CDATA[setEventCollectors]]></code>
+      <code><![CDATA[setEventIdentifiers]]></code>
+      <code><![CDATA[setEvents]]></code>
+      <code><![CDATA[setMatcher]]></code>
+      <code><![CDATA[setProfiler]]></code>
+      <code><![CDATA[setToolbar]]></code>
     </MissingReturnType>
     <MissingTemplateParam>
-      <code>Options</code>
+      <code><![CDATA[Options]]></code>
     </MissingTemplateParam>
     <MixedArgument>
       <code><![CDATA[$options['collectors']]]></code>
       <code><![CDATA[$options['identifiers']]]></code>
-      <code>$value</code>
-      <code>$value</code>
-      <code>$value</code>
+      <code><![CDATA[$value]]></code>
+      <code><![CDATA[$value]]></code>
+      <code><![CDATA[$value]]></code>
     </MixedArgument>
     <MixedArgumentTypeCoercion>
-      <code>$options</code>
+      <code><![CDATA[$options]]></code>
     </MixedArgumentTypeCoercion>
     <MixedArrayAccess>
       <code><![CDATA[$this->events['collectors'][$name]]]></code>
@@ -755,26 +761,26 @@
       <code><![CDATA[$this->toolbar[$key][$collector]]]></code>
     </MixedArrayOffset>
     <MixedAssignment>
-      <code>$collector</code>
-      <code>$collector</code>
-      <code>$collector</code>
-      <code>$identifier</code>
-      <code>$template</code>
-      <code>$value</code>
+      <code><![CDATA[$collector]]></code>
+      <code><![CDATA[$collector]]></code>
+      <code><![CDATA[$collector]]></code>
+      <code><![CDATA[$identifier]]></code>
+      <code><![CDATA[$template]]></code>
+      <code><![CDATA[$value]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>array</code>
-      <code>array</code>
-      <code>array</code>
-      <code>array</code>
-      <code>array</code>
-      <code>bool</code>
-      <code>bool</code>
-      <code>bool</code>
-      <code>bool</code>
-      <code>bool</code>
-      <code>bool</code>
-      <code>string</code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[array]]></code>
+      <code><![CDATA[bool]]></code>
+      <code><![CDATA[bool]]></code>
+      <code><![CDATA[bool]]></code>
+      <code><![CDATA[bool]]></code>
+      <code><![CDATA[bool]]></code>
+      <code><![CDATA[bool]]></code>
+      <code><![CDATA[string]]></code>
     </MixedInferredReturnType>
     <MixedReturnStatement>
       <code><![CDATA[$this->events['collectors']]]></code>
@@ -794,31 +800,31 @@
       <code><![CDATA[$this->toolbar[$key][$collector]]]></code>
     </MixedStringOffsetAssignment>
     <PossiblyUnusedMethod>
-      <code>canFlushEarly</code>
-      <code>eventCollectionEnabled</code>
-      <code>getEventCollectors</code>
-      <code>getEventIdentifiers</code>
-      <code>setEvents</code>
-      <code>setProfiler</code>
+      <code><![CDATA[canFlushEarly]]></code>
+      <code><![CDATA[eventCollectionEnabled]]></code>
+      <code><![CDATA[getEventCollectors]]></code>
+      <code><![CDATA[getEventIdentifiers]]></code>
+      <code><![CDATA[setEvents]]></code>
+      <code><![CDATA[setProfiler]]></code>
     </PossiblyUnusedMethod>
     <TypeDoesNotContainType>
-      <code>is_array($options)</code>
-      <code>is_array($options)</code>
+      <code><![CDATA[is_array($options)]]></code>
+      <code><![CDATA[is_array($options)]]></code>
     </TypeDoesNotContainType>
     <UndefinedClass>
-      <code>ConfigCollector</code>
-      <code>DbCollector</code>
-      <code>ExceptionCollector</code>
-      <code>MemoryCollector</code>
-      <code>MemoryCollector</code>
-      <code>RequestCollector</code>
-      <code>TimeCollector</code>
-      <code>TimeCollector</code>
+      <code><![CDATA[ConfigCollector]]></code>
+      <code><![CDATA[DbCollector]]></code>
+      <code><![CDATA[ExceptionCollector]]></code>
+      <code><![CDATA[MemoryCollector]]></code>
+      <code><![CDATA[MemoryCollector]]></code>
+      <code><![CDATA[RequestCollector]]></code>
+      <code><![CDATA[TimeCollector]]></code>
+      <code><![CDATA[TimeCollector]]></code>
     </UndefinedClass>
   </file>
   <file src="src/Profiler.php">
     <ImplementedReturnTypeMismatch>
-      <code>self</code>
+      <code><![CDATA[self]]></code>
     </ImplementedReturnTypeMismatch>
     <MixedArgument>
       <code><![CDATA[$mvcEvent->getRequest()->getMethod()]]></code>
@@ -826,21 +832,21 @@
       <code><![CDATA[$mvcEvent->getRequest()->getUriString()]]></code>
     </MixedArgument>
     <MixedMethodCall>
-      <code>get</code>
+      <code><![CDATA[get]]></code>
     </MixedMethodCall>
     <PossiblyUnusedMethod>
-      <code>addCollector</code>
-      <code>collect</code>
-      <code>setErrorMode</code>
+      <code><![CDATA[addCollector]]></code>
+      <code><![CDATA[collect]]></code>
+      <code><![CDATA[setErrorMode]]></code>
     </PossiblyUnusedMethod>
     <PropertyNotSetInConstructor>
-      <code>$collectors</code>
-      <code>$event</code>
-      <code>$eventManager</code>
-      <code>$strict</code>
+      <code><![CDATA[$collectors]]></code>
+      <code><![CDATA[$event]]></code>
+      <code><![CDATA[$eventManager]]></code>
+      <code><![CDATA[$strict]]></code>
     </PropertyNotSetInConstructor>
     <PropertyTypeCoercion>
-      <code>$event</code>
+      <code><![CDATA[$event]]></code>
     </PropertyTypeCoercion>
     <RedundantPropertyInitializationCheck>
       <code><![CDATA[isset($this->collectors)]]></code>
@@ -848,16 +854,16 @@
       <code><![CDATA[isset($this->event)]]></code>
     </RedundantPropertyInitializationCheck>
     <UndefinedInterfaceMethod>
-      <code>getMethod</code>
-      <code>getServer</code>
-      <code>getUriString</code>
+      <code><![CDATA[getMethod]]></code>
+      <code><![CDATA[getServer]]></code>
+      <code><![CDATA[getUriString]]></code>
     </UndefinedInterfaceMethod>
   </file>
   <file src="src/ProfilerEvent.php">
     <MixedInferredReturnType>
-      <code>ApplicationInterface|null</code>
-      <code>ReportInterface</code>
-      <code>string</code>
+      <code><![CDATA[ApplicationInterface|null]]></code>
+      <code><![CDATA[ReportInterface]]></code>
+      <code><![CDATA[string]]></code>
     </MixedInferredReturnType>
     <MixedReturnStatement>
       <code><![CDATA[$this->getParam('application')]]></code>
@@ -865,26 +871,26 @@
       <code><![CDATA[$this->getParam('report')]]></code>
     </MixedReturnStatement>
     <PossiblyUnusedMethod>
-      <code>getProfiler</code>
+      <code><![CDATA[getProfiler]]></code>
     </PossiblyUnusedMethod>
   </file>
   <file src="src/Report.php">
     <MissingConstructor>
-      <code>$errors</code>
-      <code>$ip</code>
-      <code>$method</code>
-      <code>$time</code>
-      <code>$token</code>
-      <code>$uri</code>
+      <code><![CDATA[$errors]]></code>
+      <code><![CDATA[$ip]]></code>
+      <code><![CDATA[$method]]></code>
+      <code><![CDATA[$time]]></code>
+      <code><![CDATA[$token]]></code>
+      <code><![CDATA[$uri]]></code>
     </MissingConstructor>
     <MixedArgument>
-      <code>$collector</code>
+      <code><![CDATA[$collector]]></code>
     </MixedArgument>
     <MixedAssignment>
-      <code>$collector</code>
+      <code><![CDATA[$collector]]></code>
     </MixedAssignment>
     <MixedInferredReturnType>
-      <code>getCollector</code>
+      <code><![CDATA[getCollector]]></code>
     </MixedInferredReturnType>
     <MixedReturnStatement>
       <code><![CDATA[$this->collectors[$name]]]></code>
@@ -895,43 +901,43 @@
   </file>
   <file src="src/ReportInterface.php">
     <PossiblyUnusedMethod>
-      <code>getCollectorNames</code>
-      <code>getCollectors</code>
-      <code>getIp</code>
-      <code>getMethod</code>
-      <code>getTime</code>
-      <code>getToken</code>
-      <code>getUri</code>
-      <code>hasCollector</code>
-      <code>setCollectors</code>
+      <code><![CDATA[getCollectorNames]]></code>
+      <code><![CDATA[getCollectors]]></code>
+      <code><![CDATA[getIp]]></code>
+      <code><![CDATA[getMethod]]></code>
+      <code><![CDATA[getTime]]></code>
+      <code><![CDATA[getToken]]></code>
+      <code><![CDATA[getUri]]></code>
+      <code><![CDATA[hasCollector]]></code>
+      <code><![CDATA[setCollectors]]></code>
     </PossiblyUnusedMethod>
     <PossiblyUnusedReturnValue>
-      <code>self</code>
-      <code>self</code>
-      <code>self</code>
+      <code><![CDATA[self]]></code>
+      <code><![CDATA[self]]></code>
+      <code><![CDATA[self]]></code>
     </PossiblyUnusedReturnValue>
   </file>
   <file src="src/Storage/StorageInterface.php">
     <UnusedClass>
-      <code>StorageInterface</code>
+      <code><![CDATA[StorageInterface]]></code>
     </UnusedClass>
   </file>
   <file src="src/View/Helper/DetailArray.php">
     <MixedArgument>
-      <code>$entry</code>
+      <code><![CDATA[$entry]]></code>
     </MixedArgument>
     <MixedAssignment>
-      <code>$entry</code>
+      <code><![CDATA[$entry]]></code>
     </MixedAssignment>
   </file>
   <file src="test/Exception/SerializableExceptionTest.php">
     <UndefinedMethod>
-      <code>iDoNotExist</code>
+      <code><![CDATA[iDoNotExist]]></code>
     </UndefinedMethod>
   </file>
   <file src="test/OptionsTest.php">
     <InvalidArgument>
-      <code>testOnlyWhitelistedToolbarEntriesShouldBeEnabled</code>
+      <code><![CDATA[testOnlyWhitelistedToolbarEntriesShouldBeEnabled]]></code>
     </InvalidArgument>
     <InvalidReturnType>
       <code><![CDATA[Generator<non-empty-string, list<scalar>>]]></code>
