@@ -121,6 +121,7 @@
                     "type": "community_bridge"
                 }
             ],
+            "abandoned": true,
             "time": "2024-11-17T22:10:53+00:00"
         },
         {
@@ -377,6 +378,7 @@
                     "type": "community_bridge"
                 }
             ],
+            "abandoned": true,
             "time": "2024-10-25T09:02:25+00:00"
         },
         {
@@ -433,6 +435,7 @@
                     "type": "community_bridge"
                 }
             ],
+            "abandoned": true,
             "time": "2024-10-16T09:06:57+00:00"
         },
         {
@@ -5343,13 +5346,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.1.99"
     },
