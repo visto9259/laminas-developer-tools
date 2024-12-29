@@ -24,7 +24,7 @@ class OptionsTest extends TestCase
     /**
      * @return Generator<non-empty-string, list<scalar>>
      */
-    public function blacklistFlags(): Generator
+    public static function blacklistFlags(): Generator
     {
         yield 'null' => [null];
         yield 'false' => [false];

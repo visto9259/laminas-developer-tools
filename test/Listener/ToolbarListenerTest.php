@@ -21,7 +21,7 @@ class ToolbarListenerTest extends TestCase
     /**
      * @return array<non-empty-string, array{0: non-empty-string, 1: bool}>
      */
-    public function provideHTMLBodyWithInjectedFlag(): array
+    public static function provideHTMLBodyWithInjectedFlag(): array
     {
         return [
             'not HTML5 has head and body' => ['<html><head></head><body></body></html>', true],
