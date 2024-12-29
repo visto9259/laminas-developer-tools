@@ -159,7 +159,6 @@ class ConfigCollector implements CollectorInterface, Serializable
     /**
      * Opposite of {@see makeArraySerializable} - replaces stubs in an array with actual un-serializable objects
      *
-     * @param array $data
      * @return array
      */
     private function unserializeArray(array $data)

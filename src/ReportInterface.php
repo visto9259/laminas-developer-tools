@@ -102,7 +102,6 @@ interface ReportInterface
     public function getCollectorNames();
 
     /**
-     * @param  array $collectors
      * @return self
      */
     public function setCollectors(array $collectors);
